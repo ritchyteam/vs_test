@@ -10,7 +10,7 @@ namespace TestVSSolution
     {
         static void Main(string[] args)
         {
-            Console.Write("Hi! Huy sdfsdfsdfsdfdsfdfdsf");
+            Console.Write("Hi! Huy sdfsdfsdfsdfdsfdfdsf rrrrr");
             Console.ReadLine();
             Console.ReadLine();
         }
