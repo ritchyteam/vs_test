@@ -122,6 +122,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="before-deploy.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="TestVSSolution_TemporaryKey.pfx" />
   </ItemGroup>
