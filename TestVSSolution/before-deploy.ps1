@@ -1,5 +1,6 @@
-﻿$a = get-process TestVSSolution
-
+﻿$a = get-process TestVSSolution -ErrorAction SilentlyContinue
+if($a){
+"Application TestVSSolution is running. Waiting."
 $a.waitforexit()
-
-"Application has stopped running."
+"Application TestVSSolution has stopped running."
+}
