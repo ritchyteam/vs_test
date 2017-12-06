@@ -15,7 +15,7 @@ namespace TestVSSolution
         {
             Version version = Assembly.GetEntryAssembly().GetName().Version;
 
-            Console.Write($"Hi! Ver:::1drrrrrrrrrrrrrrrasdasdsaasdsads asda  dsad sad sa d d fdsfsd fdsfdf: {version.Major} {version.Minor} {version.Build} {version.Revision}");
+            Console.Write($"Hi! v1: {version.Major} {version.Minor} {version.Build} {version.Revision}");
             Console.ReadLine();
             Console.ReadLine();
         }
